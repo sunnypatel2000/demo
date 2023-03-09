@@ -1,0 +1,186 @@
+.panel-section {padding: 100px 0;position: relative;}
+.panel-section::before {content: '';z-index: -1; background-position: center; background-image: url(../../../assets/images/contact-bg.svg);background-size: cover;background-repeat: no-repeat;position: absolute;width: 100%;height: 100%;top: 20px;left: 0;}
+.panel-left h2{font-weight: 700;font-size: 40px;color: #001588;line-height: 1;margin-bottom: 50px;}
+.quality-list{margin-bottom: 50px;}
+.quality-list li:not(:last-child){margin-bottom: 25px;}
+.img-box{width: 80px;height: 80px;border-radius: 50%;overflow: hidden;display: flex;justify-content: center;border: 1px solid #001588;}
+.img-box img{width: 40px;height: 40px;margin: auto;}
+.inner-box h5{color: #000000;font-weight: 400;font-size: 20px;margin-left: 20px;}
+.panel-left .link-btn.blue{width: 215px;min-width: auto}
+.solar-img{width: 400px;height: 600px;display: inline-block;margin: 0 auto;}
+.solar-img img{width: 100%;height: 100%;}
+.module-section{padding: 100px 0;}
+.solar-module-img{width: 540px;height: 430px;display: inline-block;}
+.solar-module-img img{width: 100%;height: 100%;}
+.module-list {list-style: none;counter-reset: my-awesome-counter;}
+.module-list li{font-weight: 400;font-size: 20px;margin-bottom: 15px;color: #001588;counter-increment: my-awesome-counter;}
+.module-list li::before {content: "0" counter(my-awesome-counter);color: #FFD100;font-weight: 500;font-size: 25px;margin-right: 15px;}
+.module-list li:last-child{margin-bottom: 0;}
+.module-section .panel-left{padding-left: 19px;}
+.our-section{padding: 0 0 70px;}
+.title-box{margin-bottom: 30px;text-align: center;}
+.title-box h2{font-weight: 700;font-size: 40px;color: #001588;}
+.info-box h4{font-weight: 500;font-size: 23px;color: #001588;line-height: 1;margin-bottom: 5px;}
+.info-box span{font-weight: 500;font-size: 15px;color: #000000;line-height: 1;margin-bottom: 20px;display: block;}
+.product-box{justify-content: center;}
+.product-box .solar-img{width: 180px;height: 260px;display: inline-block;}
+.product-list li{border: 1px solid #D8D8D8;margin-right: 30px;margin-bottom: 15px;padding: 30px 30px;display: inline-block;width: 48%;}
+.product-list li:last-child{margin-bottom: 0}
+.product-list li:nth-child(2n){margin-right: 0;}
+.detail-box-list{margin-bottom: 25px;}
+.detail-box-list .detail-box{width: 48%;margin-right: 5px;margin-bottom: 15px;display: inline-block;}
+.detail-box-list .detail-box:last-child{margin-right: 0;margin-bottom: 0;}
+.detail-box-list .detail-box:nth-last-child(2){margin-bottom: 0;}
+.detail-box h6{color: #000000;font-weight: 500;font-size: 15px;margin-bottom: 5px;line-height: 1;}
+.detail-box p{color: #000000;font-weight: 400;font-size: 13px;line-height: 1;}
+.info-box{width: calc(100% - 205px);}
+.info-box .link-btn.blue{width: 205px;min-width: auto;font-size: 15px;height: 60px;padding:0 25px 0 10px;}
+
+/* responsive */
+
+@media (max-width:1199px){
+    .solar-module-img {
+        width:385px;
+        height: 350px;
+    }
+    .panel-section{
+        padding: 80px 0;
+    }
+    .module-section{
+        padding: 0 0 80px;
+    }
+    .product-list li{
+        padding: 15px 20px;
+    }
+    .product-box .solar-img {
+        width: 150px;
+        height: 215px;
+    }
+    .module-list li{
+        font-size: 18px;
+    }
+    .info-box {
+        width: calc(100% - 155px);
+    }
+}
+@media (min-width:992px){
+    .product-list li:nth-last-child(2){
+        margin-bottom: 0;
+    }
+}
+@media (max-width:991px){
+    .solar-img{
+        width: 345px;
+        height: 400px;
+    }
+    .panel-left h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .img-box {
+        width: 60px;
+        height: 60px;
+    }
+    .img-box img{
+        width: 30px;
+        height: 30px;
+    }
+    .inner-box h5{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .quality-list li:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .quality-list{
+        margin-bottom: 25px;
+    }
+    .panel-left .link-btn.blue{
+        height: 55px;
+    }
+    .solar-module-img {
+        width:329px;
+        height: 305px;
+    }
+    .module-list li{
+        font-size: 15px;
+        margin-bottom: 10px;
+        line-height: 1;
+    }
+    .product-list li{
+        margin-bottom: 30px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .product-list li:last-child{
+        margin-bottom: 0;
+    }
+    .our-section{
+        padding: 0 0 50px;
+    }
+    .module-section{
+        padding: 0 0 50px;
+    }
+    .title-box{
+        margin-bottom: 20px;
+    }
+    .info-box {
+        width: calc(100% - 220px);
+    }
+    .title-box h2{
+        font-size: 30px;
+    }
+}
+@media (max-width:767px){
+    .solar-img{
+        margin: 0 auto;
+    }
+    .module-section .panel-left{
+        padding-left: 0;
+    }
+}
+@media (max-width:575px){
+    .solar-img {
+        width: 270px;
+        height: 330px;
+    }
+    .solar-module-img{
+        width: 290px;
+        height: 270px;
+    }
+    .info-box{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .product-box{
+        flex-wrap: wrap;
+    }
+    .detail-box-list .detail-box{
+        width: 47%;
+    }
+    .inner-box h5{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .panel-left .link-btn.blue{
+        width: 180px;
+    }
+    .module-list li{
+        font-size: 14px;
+    }
+    .module-list li::before{
+        margin-right: 10px;
+    }
+    .panel-left h2{
+        font-size: 21px;
+    }
+    .panel-section{
+        padding: 50px 0 70px;
+    }
+    .our-section,.module-section{
+        padding: 0 0 40px;
+    }
+    .title-box h2{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,61 @@
+<header [ngClass]="{ scrolled:scrolled }">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-8">
+                <div class="logo-box">
+                    <a [routerLink]="['/home']">
+                        <img src="../../../assets/images/logo.svg" alt="logo-img" >
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9 col-4 menu-col" [ngClass]="menuopen ? 'open' : ''">
+                <div class="menu-box d-md-flex justify-content-md-end align-items-center flex-wrap" [ngClass]="menuopen ? 'open' : ''">
+                    <button type="button" class="close-btn" (click)="menuToggle()"> <img src="../../../assets/images/close.svg" alt="close-img">  </button>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="javascript:void(0)" class="sub-menu">Our Products
+                                <ul class="sub-menu-list">
+                                    <button type="button" class="close-btn" (click)="menuToggle()"> <img src="../../../assets/images/close.svg" alt="close-img">  </button>
+                                    <li>
+                                        <a [routerLink]="['/solar_panel']">
+                                            <div class="inner-info panal">
+                                                <h6>Solar Panel</h6>
+                                                <p>Lörem ipsum ståhjuling homoposens parasade Bamseteorem seses. Ogt ginade, provad tit. Nedovaskap sost.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a [routerLink]="['/solar_pump']">
+                                            <div class="inner-info pump">
+                                                <h6>Solar Pump</h6>
+                                                <p>Lörem ipsum ståhjuling homoposens parasade Bamseteorem seses. Ogt ginade, provad tit. Nedovaskap sost.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a [routerLink]="['/solar_light']">
+                                            <div class="inner-info light">
+                                                <h6>Solar Street Light</h6>
+                                                <p>Lörem ipsum ståhjuling homoposens parasade Bamseteorem seses. Ogt ginade, provad tit. Nedovaskap sost.</p>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a  [routerLink]="['/about']">About us</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/contact']">Contact Us</a>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="link-btn">Request a Quote</a>
+                </div>
+                <div class="toogle-box" (click)="menuToggle()">
+                    <img src="../../../assets/images/toggle.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

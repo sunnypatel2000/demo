@@ -1,0 +1,80 @@
+footer{ padding: 100px 0 30px;}
+.logo-box a{width: 170px;height: 58px;display: inline-block;}
+.footer-right .inner-box{border-top: 3px solid #001588;margin-top: 20px;padding-top: 60px;}
+.footer-menu-box h6{color: rgba(0, 0, 0,0.5);font-weight: 600;font-size: 18px;margin-bottom: 38px;}
+.footer-menu-list li{margin-bottom: 20px;}
+.footer-menu-list li:last-child{margin-bottom: 0;}
+.footer-menu-list a{font-weight: 400;font-size: 16px;color: #000;}
+.footer-menu-list a:hover{color: #001588;}
+.footer-social-box .number{font-weight: 600;font-size: 30px;color: #000;line-height: 1;margin-bottom: 30px;display: inline-block;}
+.footer-social-box .email-box{font-weight: 700;font-size: 16px;color: #001588;margin-bottom: 20px;}
+.footer-social-box .email-box a{color: #000;display: inline-block;}
+.footer-social-box p{line-height: 1.5;font-weight: 400;font-size: 16px;color: #000;margin-bottom: 40px;}
+.social-list li{display: inline-block;margin-right: 21px;vertical-align: top;}
+.social-list li:last-child{margin-right: 0;}
+.social-list li a{width: 33px;height: 33px;display: flex;justify-content: center;align-items: center;background-color: #001588;border-radius: 50%;overflow: hidden;}
+.bottom-footer {margin-top: 50px;width: 100%;}
+.bottom-footer strong{color: rgba(0, 0, 0, 0.6);font-weight: 300;font-size: 14px;}
+
+@media (max-width:1199px){
+    .footer-menu-list a{
+        font-size: 15px;
+    }
+    .footer-menu-box h6{
+        margin-bottom: 20px;
+    }
+    .footer-menu-list li{
+        margin-bottom: 10px;
+    }
+    .footer-right .inner-box{
+        padding-top: 30px;
+    }
+    .footer-social-box .number{
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+    .social-list li{
+        margin-right: 8px;
+    }
+}
+@media (max-width:991px){
+    .logo-box a{
+        width: 140px;
+        height: 47px;
+    }
+    footer{
+        padding: 50px 0 30px;
+    }
+}
+
+@media (max-width:767px){
+    .footer-menu-box{
+        margin-bottom: 25px;
+    }
+    .footer-menu-list li{
+        line-height: 1;
+    }
+    .bottom-footer strong{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .bottom-footer strong:last-child{
+        margin-bottom: 0;
+    }
+    .social-list li{
+        margin-right: 21px;
+    }
+    footer{
+        padding: 40px 0 30px;
+    }
+    .footer-right .inner-box{
+        border-top: none;
+    }
+}
+
+@media (max-width:374px){
+    .footer-menu-list a{
+        font-size: 12px;
+    }
+}

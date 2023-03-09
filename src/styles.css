@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Bold.eot');
+    src: url('./assets/fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Bold.woff') format('woff'),
+        url('./assets/fonts/Inter-Bold.ttf') format('truetype'),
+        url('./assets/fonts/Inter-Bold.svg#Inter-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Black.eot');
+    src: url('./assets/fonts/Inter-Black.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-Black.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Black.woff') format('woff'),
+        url('./assets/fonts/Inter-Black.ttf') format('truetype'),
+        url('./assets/fonts/Inter-Black.svg#Inter-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-ExtraBold.eot');
+    src: url('./assets/fonts/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('./assets/fonts/Inter-ExtraBold.woff') format('woff'),
+        url('./assets/fonts/Inter-ExtraBold.ttf') format('truetype'),
+        url('./assets/fonts/Inter-ExtraBold.svg#Inter-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-ExtraLight.eot');
+    src: url('./assets/fonts/Inter-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-ExtraLight.woff2') format('woff2'),
+        url('./assets/fonts/Inter-ExtraLight.woff') format('woff'),
+        url('./assets/fonts/Inter-ExtraLight.ttf') format('truetype'),
+        url('./assets/fonts/Inter-ExtraLight.svg#Inter-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Light.eot');
+    src: url('./assets/fonts/Inter-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-Light.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Light.woff') format('woff'),
+        url('./assets/fonts/Inter-Light.ttf') format('truetype'),
+        url('./assets/fonts/Inter-Light.svg#Inter-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Medium.eot');
+    src: url('./assets/fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-Medium.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Medium.woff') format('woff'),
+        url('./assets/fonts/Inter-Medium.ttf') format('truetype'),
+        url('./assets/fonts/Inter-Medium.svg#Inter-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Regular.eot');
+    src: url('./assets/fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Regular.woff') format('woff'),
+        url('./assets/fonts/Inter-Regular.ttf') format('truetype'),
+        url('./assets/fonts/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-SemiBold.eot');
+    src: url('./assets/fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/Inter-SemiBold.woff') format('woff'),
+        url('./assets/fonts/Inter-SemiBold.ttf') format('truetype'),
+        url('./assets/fonts/Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Thin.eot');
+    src: url('./assets/fonts/Inter-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Inter-Thin.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Thin.woff') format('woff'),
+        url('./assets/fonts/Inter-Thin.ttf') format('truetype'),
+        url('./assets/fonts/Inter-Thin.svg#Inter-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ----- Reset css ----- */
+
+* { margin:0px; padding:0px; border:none; outline:none; box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;}
+body {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; font-family: 'Inter' !important;position: relative;z-index: 1;}
+img {border:none; outline:none;max-width: 100%;vertical-align: middle;}
+a,h1,h2,h3,h4,h5,h6,p,div,img,figure {text-decoration:none; padding:0px; margin:0px;outline: none;}
+ul,ol,li{list-style-type: none;margin:0px;}
+input,textarea,select,input[type="text"], input[type="email"], input[type="button"], input[type="submit"] {-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;-o-appearance: none;appearance: none;}
+html {text-size-adjust: none;-ms-text-size-adjust: none;-webkit-text-size-adjust: none;-o-text-size-adjust: none;}
+a:hover, a:focus {text-decoration: none;}
+
+a,.link-btn.yellow,.link-btn,.link-btn.blue::before,.link-btn::before
+{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;}
+
+::-webkit-input-placeholder {color: #94A2B8; font-family: 'Inter'; font-weight: 400; font-size: 15px;}
+:-moz-placeholder {color: #94A2B8; font-family: 'Inter'; font-weight: 400; font-size: 15px;}
+::-moz-placeholder {color: #94A2B8; font-family: 'Inter'; font-weight: 400; font-size: 15px;}
+:-ms-input-placeholder {color: #94A2B8;font-family: 'Inter'; font-weight: 400; font-size: 15px;}
+
+.link-btn{
+    border: 1px solid #001588;
+    border-radius: 5px;
+    min-width: 215px;
+    height: 67px;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    color: #001588;
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 15px;
+}
+.link-btn:hover{background-color: #001588;color: #fff;}
+
+.link-btn::before{
+    content: '';
+    background-image: url(assets/images/link-arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 21px;
+    height: 15px;
+    z-index: 1;
+}
+.link-btn:hover::before{
+    background-image: url(./assets/images/white-link-arrow.svg);
+}
+
+.link-btn.blue{
+    background-color: #001588;
+    color: #fff;
+}
+/* .link-btn.blue::before{
+    background-image: url(./assets/images/sprit.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 10px 20px;
+} */
+.link-btn.blue::before{
+    background-image: url(./assets/images/white-link-arrow.svg);
+}
+.link-btn.blue:hover::before{
+    background-image: url(./assets/images/link-arrow.svg);
+    background-repeat: no-repeat;
+}
+.link-btn.blue:hover{
+    background-color: transparent;
+    color: #001588;
+    background-position: 50px 10px;
+}
+.link-btn.yellow{
+    background-color: #FFD100;
+    border-color: #FFD100;
+    color: #001588;
+    margin-top: 25px;
+    min-width: 50px;
+    height: 50px;
+    padding: 0 50px 0 15px;
+}
+.link-btn.yellow:hover{
+    background-color: #001588;
+    border-color: #001588;
+    color: #fff;
+}
+
+.link-btn.white{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    width: 215px;
+    margin-top: 25px;
+    padding: 0 50px 0 15px;
+}
+.link-btn.white::before{
+    background-image: url(./assets/images/white-link-arrow.svg);
+}
+.link-btn.white:hover::before{
+    background-image: url(./assets/images/link-arrow.svg);
+    background-repeat: no-repeat;
+}
+.link-btn.white:hover{
+    background-color: #fff;
+    color: #001588;
+}
+.link-btn.border-blue{
+    background-color: transparent;
+    border-color: #001588;
+    color: #001588;
+    width: 215px;
+    margin-top: 25px;
+    padding: 0 50px 0 15px;
+}
+.link-btn.border-blue:hover{
+    background-color: #001588;
+    color: #fff;
+}
+
+@media (max-width:991px){
+    .link-btn {
+        min-width: 176px;
+        height: 40px;
+        font-size: 14px;
+        padding: 0 13px 0 15px;
+    }
+}
